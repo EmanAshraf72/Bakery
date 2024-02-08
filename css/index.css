@@ -1,0 +1,118 @@
+body{
+    font-family: "Alegreya";
+}
+.navbar{
+background-color: #adabab !important;
+z-index: 99999;
+position: fixed;
+left: 0;
+right: 0;
+}
+.navbar img{
+    width:15%
+}
+
+.navbar-nav a{
+    color: white;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../image/drew-coffman-1872\ \(1\).jpg);
+    background-size:cover;
+    background-position: center center;
+}
+.About img{
+    width: 100%;
+}
+
+.location img{
+    width: 100%;
+}
+/* gallery */
+#Gallery img{
+    width: 100%;
+}
+#Gallery h6{
+    font-size: 22px;
+}
+.detailes
+{
+    background-color: #686868;
+}
+footer{
+    background-color: #373a3c;
+}
+.footer-main p, #footer-main, #footer .widget, .footer-main .widget-contact-details > div {
+    color: #969696;
+    font-size: 16px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+#footer{
+    background-color: #403d38;
+    color: #686868;
+    padding: 15px;
+}
+#footer ul li {
+    list-style-type: square;
+    padding-bottom: 10px;
+}
+#footer a{
+    text-decoration:none;
+    color: #A9A9A9;
+}
+
+#footer .footer-widget .widget-title {
+    text-transform: none;
+    font-size: 18px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+.widget-contact-details span {
+    display: inline-block;
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 10px;
+
+
+}
+#footer .widget ul li {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+/* section footer */
+.footer-icon{
+    text-align: center;
+    padding: .5rem .3rem;
+       border-radius: 1rem;
+       margin-bottom: 3rem;
+   
+}
+.icon-circle
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: .55;
+  margin: 0 auto;
+  text-align: center;
+  color: #686868;
+  background-color: #484540;
+  text-align: center;
+  margin: auto;
+  transition: 1s;
+}
+.footer-icon:hover .icon-circle{
+    transition: all 1s;
+    background-color: blue;
+    color: white;
+}
